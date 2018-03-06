@@ -1,0 +1,42 @@
+	<ion-view view-title="About Us" hide-nav-bar="false" >
+		<!-- popover -->
+		<ion-nav-buttons side="right">
+			<button class="button button-icon button-clear ion-android-more-vertical" id="menu-popover" ng-click="popover.show($event)"></button>
+		</ion-nav-buttons>
+		<!-- ./popover -->
+		<ion-nav-title>About Us</ion-nav-title>
+		<!-- content -->
+		<ion-content delegate-handle="top"   id="page-about_us" class="padding page-about_us">
+		 
+  <div class="text-center">   
+    <p>Aneka Resep Kue 1.0</p>
+  </div>
+ 
+<br/>
+
+<div class="list card">
+ 
+  <a class="item item-icon-left" ng-click="openURL('http://facebook.com')" >
+    <i class="positive icon ion-social-facebook"></i>
+    Like Us on Facebook
+  </a>
+  
+   <a class="item item-icon-left" ng-click="openURL('mailto:appgue.good@gmail.com')" >
+    <i class="icon ion-android-mail royal"></i>
+    For Business Cooperation<br/>
+    <span>
+        Email: appgue.good@gmail.com
+    </span>
+  </a>
+   
+</div>
+
+<br/>
+<div class="text-center">
+<p>&copy; 2017 Berbagi Sumber<br/>All Rights Reserved</p>
+</div>
+
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>

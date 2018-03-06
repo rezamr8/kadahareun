@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "663021315267",
+    "firebase_url": "https://aneka-resep-kue.firebaseio.com",
+    "project_id": "aneka-resep-kue",
+    "storage_bucket": "aneka-resep-kue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663021315267:android:5bcc3864c12400ec",
+        "android_client_info": {
+          "package_name": "com.e74Studio.kumpulan.anekaresepkue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663021315267-bak7cqte3qc2bphom6nehoheu8tdkq22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoue-WKqVdeoM96tjd0zUei7DuicyO0Y8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
